@@ -2,11 +2,11 @@
 int main()
 {
 	int a, b;
-	printf("enter first number : ");
+	printf("Enter first number : ");
 	scanf("%d", &a);
-	printf("enter second number : ");
+	printf("Enter second number : ");
 	scanf("%d", &b);
-	if (a > b) printf("maximum number : %d\n,a");
-	else printf("maximum number : %d\n,b");
+	if (a > b) printf("Maximum number : %d\n",a);
+	else printf("Maximum number : %d\n",b);
 	return 0;
 }
